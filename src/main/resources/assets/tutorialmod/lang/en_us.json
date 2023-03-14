@@ -1,3 +1,5 @@
 {
-  "item.tutorialmod.chlorophyte": "chlorophyte"
+  "item.tutorialmod.chlorophyte": "Chlorophyte",
+
+  "itemGroup.modtab": "Chlorophyte Mod Tab"
 }
