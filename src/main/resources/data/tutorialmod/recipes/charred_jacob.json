@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smelting",
+  "cookingtime": 100,
+  "experience": 0.15,
+  "ingredient": {
+    "item" : "tutorialmod:jacob"
+  },
+  "result": "tutorialmod:charred_jacob"
+}
