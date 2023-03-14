@@ -1,5 +1,9 @@
 {
   "item.tutorialmod.chlorophyte": "Chlorophyte",
 
+  "block.tutorialmod.chlorophyte_brick": "Block of Chlorophyte",
+  "block.tutorialmod.chlorophyte_ore": "Chlorophyte Ore",
+  "block.tutorialmod.deepslate_chlorophyte_ore": "Deepslate Chlorophyte Ore",
+
   "itemGroup.modtab": "Chlorophyte Mod Tab"
 }
