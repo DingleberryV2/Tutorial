@@ -1,9 +1,11 @@
 {
   "item.tutorialmod.chlorophyte": "Chlorophyte",
 
-  "block.tutorialmod.chlorophyte_brick": "Brick of Chlorophyte",
+  "block.tutorialmod.chlorophyte_brick": "Chlorophyte Brick",
   "block.tutorialmod.chlorophyte_ore": "Chlorophyte Ore",
   "block.tutorialmod.deepslate_chlorophyte_ore": "Deepslate Chlorophyte Ore",
+
+  "block.tutorialmod.block_of_jacob": "Block of Jacob",
 
   "item.tutorialmod.mrbeast": "Mrbeast",
   "item.tutorialmod.jacob": "Jacob",
