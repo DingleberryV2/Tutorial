@@ -23,6 +23,7 @@
   "item.tutorialmod.platinum_ingot": "Platinum Ingot",
 
   "item.tutorialmod.raw_platinum" : "Raw Platinum",
+  "entity.minecraft.villager.jacob_merchant" : "Jacob Merchant",
 
   "itemGroup.modtab": "Chlorophyte Mod Tab"
 }
