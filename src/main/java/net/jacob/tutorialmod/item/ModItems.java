@@ -19,6 +19,8 @@ public class ModItems {
 
     public static final RegistryObject<Item> platinum_ingot = ITEMS.register("platinum_ingot",
             () -> new Item(new Item.Properties().tab(ModCreativeModeTab.TUTORIAL_TAB)));
+    public static final RegistryObject<Item> emerald_pickaxe = ITEMS.register("emerald_pickaxe",
+            () -> new Item(new Item.Properties().tab(ModCreativeModeTab.TUTORIAL_TAB).stacksTo(1)));
     public static final RegistryObject<Item> mrbeast = ITEMS.register("mrbeast",
             () -> new Item(new Item.Properties().tab(ModCreativeModeTab.TUTORIAL_TAB)));
 
