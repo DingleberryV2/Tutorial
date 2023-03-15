@@ -39,6 +39,18 @@ public class ModBlocks {
             () -> new Block(BlockBehaviour.Properties.of(Material.DIRT)
                     .strength(1f).requiresCorrectToolForDrops()), ModCreativeModeTab.TUTORIAL_TAB);
 
+    public static final RegistryObject<Block> PLATINUM_BLOCK = RegisterBlock("platinum_block",
+            () -> new Block(BlockBehaviour.Properties.of(Material.METAL)
+                    .strength(1f).requiresCorrectToolForDrops()), ModCreativeModeTab.TUTORIAL_TAB);
+
+    public static final RegistryObject<Block> PLATINUM_ORE = RegisterBlock("platinum_ore",
+            () -> new Block(BlockBehaviour.Properties.of(Material.STONE)
+                    .strength(1f).requiresCorrectToolForDrops()), ModCreativeModeTab.TUTORIAL_TAB);
+
+    public static final RegistryObject<Block> DEEPSLATE_PLATINUM_ORE = RegisterBlock("deepslate_platinum_ore",
+            () -> new Block(BlockBehaviour.Properties.of(Material.STONE)
+                    .strength(1f).requiresCorrectToolForDrops()), ModCreativeModeTab.TUTORIAL_TAB);
+
     private static <T extends Block>RegistryObject<T>RegisterBlock(String name, Supplier<T> block, CreativeModeTab tab) {
         RegistryObject<T> toReturn = BLOCKS.register(name, block);
         registerBlockItem(name, toReturn, tab);
