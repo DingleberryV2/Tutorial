@@ -2,7 +2,7 @@ package net.jacob.tutorialmod;
 
 import com.mojang.logging.LogUtils;
 import net.jacob.tutorialmod.block.ModBlocks;
-import net.jacob.tutorialmod.item.Moditems;
+import net.jacob.tutorialmod.item.ModItems;
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
@@ -21,7 +21,7 @@ public class TutorialMod {
     public TutorialMod() {
         IEventBus modEventBus = FMLJavaModLoadingContext.get().getModEventBus();
 
-        Moditems.register(modEventBus);
+        ModItems.register(modEventBus);
         ModBlocks.register(modEventBus);
 
         modEventBus.addListener(this::commonSetup);

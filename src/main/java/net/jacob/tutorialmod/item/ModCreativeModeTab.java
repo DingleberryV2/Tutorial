@@ -7,7 +7,7 @@ public class ModCreativeModeTab {
     public static final CreativeModeTab TUTORIAL_TAB = new CreativeModeTab("modtab") {
         @Override
         public ItemStack makeIcon() {
-            return new ItemStack(Moditems.chlorophyte.get());
+            return new ItemStack(ModItems.chlorophyte.get());
         }
     };
 }
