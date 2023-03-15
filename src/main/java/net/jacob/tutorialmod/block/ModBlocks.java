@@ -2,7 +2,7 @@ package net.jacob.tutorialmod.block;
 
 import net.jacob.tutorialmod.TutorialMod;
 import net.jacob.tutorialmod.item.ModCreativeModeTab;
-import net.jacob.tutorialmod.item.Moditems;
+import net.jacob.tutorialmod.item.ModItems;
 import net.minecraft.util.valueproviders.UniformInt;
 import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.CreativeModeTab;
@@ -61,7 +61,7 @@ public class ModBlocks {
 
     private static <T extends Block> RegistryObject<Item> registerBlockItem(String name, RegistryObject<T> block,
                                                                             CreativeModeTab tab) {
-        return Moditems.ITEMS.register(name, () -> new BlockItem(block.get(), new Item.Properties().tab(tab)));
+        return ModItems.ITEMS.register(name, () -> new BlockItem(block.get(), new Item.Properties().tab(tab)));
     }
 
     public static void register(IEventBus eventBus) {
