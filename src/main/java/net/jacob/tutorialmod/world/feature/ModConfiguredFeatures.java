@@ -24,11 +24,11 @@ public class ModConfiguredFeatures {
             OreConfiguration.target(OreFeatures.STONE_ORE_REPLACEABLES, ModBlocks.PLATINUM_ORE.get().defaultBlockState()),
             OreConfiguration.target(OreFeatures.DEEPSLATE_ORE_REPLACEABLES, ModBlocks.DEEPSLATE_PLATINUM_ORE.get().defaultBlockState())));
 
-    public static final RegistryObject<ConfiguredFeature<?,?>> PLATINUM_ORE = CONFIGURED_FEATURES.register("platinum_ore",
-            () -> new ConfiguredFeature<>(Feature.ORE, new OreConfiguration(OVERWORLD_PLATINUM_ORES.get(), 7)));
+    public static final RegistryObject<ConfiguredFeature<?, ?>> PLATINUM_ORE = CONFIGURED_FEATURES.register("platinum_ore",
+            () -> new ConfiguredFeature<>(Feature.ORE, new OreConfiguration(OVERWORLD_PLATINUM_ORES.get(), 6)));
 
 
-    public static void  register(IEventBus eventBus) {
+    public static void register(IEventBus eventBus) {
         CONFIGURED_FEATURES.register(eventBus);
     }
 }
