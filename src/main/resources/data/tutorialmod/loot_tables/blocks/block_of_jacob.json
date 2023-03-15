@@ -2,19 +2,13 @@
   "type": "minecraft:block",
   "pools": [
     {
-      "bonus_rolls": 0.0,
-      "conditions": [
+      "rolls": 1,
+      "entries" : [
         {
-          "condition": "minecraft:survives_explosion"
+          "type" : "minecraft:item",
+          "name" : "tutorialmod:block_of_jacob"
         }
-      ],
-      "entries": [
-        {
-          "type": "minecraft:item",
-          "name": "tutorialmod:block_of_jacob"
-        }
-      ],
-      "rolls": 1.0
+      ]
     }
   ]
 }
