@@ -36,9 +36,8 @@ public class ModBlocks {
                     UniformInt.of(3,7)), ModCreativeModeTab.TUTORIAL_TAB);
 
     public static final RegistryObject<Block> BLOCK_OF_JACOB = RegisterBlock("block_of_jacob",
-            () -> new DropExperienceBlock(BlockBehaviour.Properties.of(Material.STONE)
-                    .strength(1f).requiresCorrectToolForDrops(),
-                    UniformInt.of(3,7)), ModCreativeModeTab.TUTORIAL_TAB);
+            () -> new Block(BlockBehaviour.Properties.of(Material.DIRT)
+                    .strength(1f).requiresCorrectToolForDrops()), ModCreativeModeTab.TUTORIAL_TAB);
 
     private static <T extends Block>RegistryObject<T>RegisterBlock(String name, Supplier<T> block, CreativeModeTab tab) {
         RegistryObject<T> toReturn = BLOCKS.register(name, block);
