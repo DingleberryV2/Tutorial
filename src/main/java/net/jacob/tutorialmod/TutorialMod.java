@@ -2,7 +2,10 @@ package net.jacob.tutorialmod;
 
 import com.mojang.logging.LogUtils;
 import net.jacob.tutorialmod.block.ModBlocks;
+import net.jacob.tutorialmod.item.ModCreativeModeTab;
 import net.jacob.tutorialmod.item.ModItems;
+import net.jacob.tutorialmod.world.feature.ModConfiguredFeatures;
+import net.jacob.tutorialmod.world.feature.ModPlacedFeatures;
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
@@ -23,6 +26,10 @@ public class TutorialMod {
 
         ModItems.register(modEventBus);
         ModBlocks.register(modEventBus);
+
+        //ModConfiguredFeatures
+        ModConfiguredFeatures.register(modEventBus);
+        ModPlacedFeatures.register(modEventBus);
 
         modEventBus.addListener(this::commonSetup);
 
