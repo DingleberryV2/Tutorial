@@ -3,7 +3,6 @@
   "values": [
     "tutorialmod:chlorophyte_ore",
     "tutorialmod:chlorophyte_brick",
-    "tutorialmod:deepslate_chlorophyte_ore",
-    "tutorialmod:block_of_jacob"
+    "tutorialmod:deepslate_chlorophyte_ore"
   ]
 }
