@@ -1,5 +1,5 @@
 {
   "variants": {
-    "": { "model": "tutorialmod:block/deepslate_platinum_ore" }
+    "": { "model": "tutorialmod:block/platinum_block" }
   }
 }

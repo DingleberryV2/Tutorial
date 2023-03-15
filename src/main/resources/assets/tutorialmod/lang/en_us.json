@@ -4,16 +4,20 @@
   "block.tutorialmod.chlorophyte_brick": "Chlorophyte Brick",
   "block.tutorialmod.chlorophyte_ore": "Chlorophyte Ore",
   "block.tutorialmod.deepslate_chlorophyte_ore": "Deepslate Chlorophyte Ore",
-  "block.tutorialmos.platinum_ore" : "Platinum Ore",
-  "block.tutorialmos.depslate_platinum_ore" : "Deepslate Platinum Ore",
-  "block.tutorialmos.platinum_block" : "Platinum Block",
+
+  "block.tutorialmod.platinum_ore": "Platinum Ore",
+  "block.tutorialmod.deepslate_platinum_ore": "Deepslate Platinum Ore",
+  "block.tutorialmod.platinum_block": "Platinum Block",
 
   "block.tutorialmod.block_of_jacob": "Block of Jacob",
 
   "item.tutorialmod.mrbeast": "Mr BEAST",
+
   "item.tutorialmod.jacob": "Jacob",
-  "item.tutorialmod.charred_jacob" : "Charred Jacob",
-  "item.tutorialmod.platinum" : "Platinum",
-  "item.tutorialmod.darius" : "Darius",
+
+  "item.tutorialmod.charred_jacob": "Charred Jacob",
+
+  "item.tutorialmod.platinum": "Platinum",
+
   "itemGroup.modtab": "Chlorophyte Mod Tab"
 }
