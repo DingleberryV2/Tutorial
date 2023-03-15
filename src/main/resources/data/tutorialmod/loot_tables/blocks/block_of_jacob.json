@@ -3,10 +3,10 @@
   "pools": [
     {
       "rolls": 1,
-      "entries" : [
+      "entries": [
         {
-          "type" : "minecraft:item",
-          "name" : "tutorialmod:block_of_jacob"
+          "type": "minecraft:item",
+          "name": "tutorialmod:block_of_jacob"
         }
       ]
     }
