@@ -4,6 +4,9 @@
     "tutorialmod:chlorophyte_ore",
     "tutorialmod:chlorophyte_brick",
     "tutorialmod:deepslate_chlorophyte_ore",
-    "tutorialmod:block_of_jacob"
+    "tutorialmod:block_of_jacob",
+    "tutorialmod:platinum_block",
+    "tutorialmod:platinum_ore",
+    "tutorialmod:deepslate_platinum_ore"
   ]
 }
