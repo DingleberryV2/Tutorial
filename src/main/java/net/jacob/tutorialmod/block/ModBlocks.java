@@ -24,15 +24,15 @@ public class ModBlocks {
 
     public static final RegistryObject<Block> CHLOROPHYTE_BRICK = RegisterBlock("chlorophyte_brick",
             () -> new Block(BlockBehaviour.Properties.of(Material.STONE)
-                    .strength(1.5f).requiresCorrectToolForDrops()), ModCreativeModeTab.TUTORIAL_TAB);
+                    .strength(2f).requiresCorrectToolForDrops()), ModCreativeModeTab.TUTORIAL_TAB);
 
     public static final RegistryObject<Block> CHLOROPHYTE_ORE = RegisterBlock("chlorophyte_ore",
             () -> new DropExperienceBlock(BlockBehaviour.Properties.of(Material.STONE)
-                    .strength(1.5f).requiresCorrectToolForDrops(),
+                    .strength(2f).requiresCorrectToolForDrops(),
                     UniformInt.of(3,7)), ModCreativeModeTab.TUTORIAL_TAB);
     public static final RegistryObject<Block> DEEPSLATE_CHLOROPHYTE_ORE = RegisterBlock("deepslate_chlorophyte_ore",
             () -> new DropExperienceBlock(BlockBehaviour.Properties.of(Material.STONE)
-                    .strength(2f).requiresCorrectToolForDrops(),
+                    .strength(2.5f).requiresCorrectToolForDrops(),
                     UniformInt.of(3,7)), ModCreativeModeTab.TUTORIAL_TAB);
 
     public static final RegistryObject<Block> BLOCK_OF_JACOB = RegisterBlock("block_of_jacob",
@@ -44,14 +44,12 @@ public class ModBlocks {
                     .strength(2f).requiresCorrectToolForDrops()), ModCreativeModeTab.TUTORIAL_TAB);
 
     public static final RegistryObject<Block> PLATINUM_ORE = RegisterBlock("platinum_ore",
-            () -> new DropExperienceBlock(BlockBehaviour.Properties.of(Material.STONE)
-                    .strength(1.5f).requiresCorrectToolForDrops(),
-                    UniformInt.of(3,7)), ModCreativeModeTab.TUTORIAL_TAB);
+            () -> new Block(BlockBehaviour.Properties.of(Material.METAL)
+                    .strength(2f).requiresCorrectToolForDrops()), ModCreativeModeTab.TUTORIAL_TAB);
 
     public static final RegistryObject<Block> DEEPSLATE_PLATINUM_ORE = RegisterBlock("deepslate_platinum_ore",
-            () -> new DropExperienceBlock(BlockBehaviour.Properties.of(Material.STONE)
-                    .strength(2f).requiresCorrectToolForDrops(),
-                    UniformInt.of(3,7)), ModCreativeModeTab.TUTORIAL_TAB);
+            () -> new Block(BlockBehaviour.Properties.of(Material.METAL)
+                    .strength(2.5f).requiresCorrectToolForDrops()), ModCreativeModeTab.TUTORIAL_TAB);
 
     private static <T extends Block>RegistryObject<T>RegisterBlock(String name, Supplier<T> block, CreativeModeTab tab) {
         RegistryObject<T> toReturn = BLOCKS.register(name, block);
