@@ -1,3 +1,6 @@
 {
-  "parent": "tutorialmod:block/eight_ball"
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "tutorialmod:item/eight_ball"
+  }
 }
