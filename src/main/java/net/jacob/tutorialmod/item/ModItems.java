@@ -1,6 +1,7 @@
 package net.jacob.tutorialmod.item;
 
 import net.jacob.tutorialmod.TutorialMod;
+import net.jacob.tutorialmod.item.custom.EightBallItem;
 import net.minecraft.world.item.Item;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;
@@ -13,6 +14,8 @@ public class ModItems {
 
     public static final RegistryObject<Item> chlorophyte = ITEMS.register("chlorophyte",
             () -> new Item(new Item.Properties().tab(ModCreativeModeTab.TUTORIAL_TAB)));
+    public static final RegistryObject<Item> eight_ball = ITEMS.register("eight_ball",
+            () -> new EightBallItem(new Item.Properties().tab(ModCreativeModeTab.TUTORIAL_TAB).stacksTo(1)));
 
     public static final RegistryObject<Item> platinum_ingot = ITEMS.register("platinum_ingot",
             () -> new Item(new Item.Properties().tab(ModCreativeModeTab.TUTORIAL_TAB)));
