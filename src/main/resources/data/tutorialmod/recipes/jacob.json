@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "tutorialmod:block_of_jacob"
+    }
+  ],
+  "result": {
+    "count": 4,
+    "item": "tutorialmod:jacob"
+  }
+}
