@@ -14,6 +14,8 @@ public class Moditems {
     public static final RegistryObject<Item> chlorophyte = ITEMS.register("chlorophyte",
             () -> new Item(new Item.Properties().tab(ModCreativeModeTab.TUTORIAL_TAB)));
 
+    public static final RegistryObject<Item> platinum = ITEMS.register("platinum",
+            () -> new Item(new Item.Properties().tab(ModCreativeModeTab.TUTORIAL_TAB)));
     public static final RegistryObject<Item> mrbeast = ITEMS.register("mrbeast",
             () -> new Item(new Item.Properties().tab(ModCreativeModeTab.TUTORIAL_TAB)));
 
