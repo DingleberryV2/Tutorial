@@ -4,6 +4,7 @@ import com.mojang.logging.LogUtils;
 import net.jacob.tutorialmod.block.ModBlocks;
 import net.jacob.tutorialmod.item.ModCreativeModeTab;
 import net.jacob.tutorialmod.item.ModItems;
+import net.jacob.tutorialmod.villager.ModVillagers;
 import net.jacob.tutorialmod.world.feature.ModConfiguredFeatures;
 import net.jacob.tutorialmod.world.feature.ModPlacedFeatures;
 import net.minecraftforge.common.MinecraftForge;
@@ -37,7 +38,9 @@ public class TutorialMod {
     }
 
     private void commonSetup(final FMLCommonSetupEvent event) {
-
+        event.enqueueWork(() -> {
+            ModVillagers.registerPOIs();
+        });
     }
 
     // You can use EventBusSubscriber to automatically register all static methods in the class annotated with @SubscribeEvent
